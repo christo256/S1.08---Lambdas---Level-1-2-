@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class ListSorterAndFilter {
 
-    public List<Object> orderLowestToHighestLetters(List<Object> list) {
+    public List<String> orderLowestToHighestLetters(List<Object> list) {
 
         return list.stream()
                 .filter(obj -> obj instanceof String)

@@ -1,5 +1,7 @@
 package task6_Lambdas_Level1;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -11,6 +13,5 @@ public class Main {
 
         ListPrinter printer = new ListPrinter();
         printer.print(wordsAndNumbersSorted);
-
     }
 }
