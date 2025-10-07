@@ -1,9 +1,9 @@
-package task3_Lambdas_Level1;
+package task3and4_Lambdas_Level1;
 
 import java.util.List;
 
 
-public class MonthPrinter {
+public class MonthPrinterLambda {
 
     public void print(List<String> months) {
 

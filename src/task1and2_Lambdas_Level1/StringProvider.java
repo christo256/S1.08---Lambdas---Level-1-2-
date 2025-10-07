@@ -1,4 +1,4 @@
-package task1_Lambdas_Level1;
+package task1and2_Lambdas_Level1;
 
 import java.util.List;
 
