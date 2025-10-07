@@ -9,6 +9,7 @@ public class StringFilter {
 
         return list.stream()
                 .filter(str -> str.contains("o"))
+                .filter(str -> str.length() > 5)
                 .sorted()
                 .collect(Collectors.toList());
     }
