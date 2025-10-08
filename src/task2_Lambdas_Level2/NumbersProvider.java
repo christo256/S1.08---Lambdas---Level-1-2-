@@ -4,7 +4,7 @@ import java.util.List;
 
 public class NumbersProvider {
 
-    private List<Integer> numbers;
+    private final List<Integer> numbers;
 
     public NumbersProvider() {
         this.numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
