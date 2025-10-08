@@ -13,6 +13,5 @@ public class Main {
 
         StringPrinter printer = new StringPrinter();
         printer.print(filteredWords);
-
     }
 }
