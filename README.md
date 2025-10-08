@@ -104,4 +104,39 @@ All exercises are written in English, follow the Sprint 0 best practices, and ar
 
 ```bash
 git clone https://github.com/christo256/S1.08---Lambdas---Level-1-2-
+```
+---
+## ▶️ Compilate and Execution:
+
+### 1️⃣ Compile all packages
+From the root of the project:
+
+```bash
+javac task1and2_Lambdas_Level1/*.java \
+      task2_Lambdas_Level1/*.java \
+      task3and4_Lambdas_Level1/*.java \
+      task5_Lambdas_Level2/*.java \
+      task6and7_Lambdas_Level1/*.java \
+      task8_Lambdas_Level1/*.java \
+      task1_Lambdas_Level2/*.java \
+      task2_Lambdas_Level2/*.java \
+      task3_Lambdas_Level2/*.java \
+      task4_Lambdas_Level2/*.java
+```
+### 2️⃣ Run each Main
+```bash
+ java task1and2_Lambdas_Level1.main 
+      task2_Lambdas_Level1.main
+      task3and4_Lambdas_Level1.main 
+      task5_Lambdas_Level2.main
+      task6and7_Lambdas_Level1.main 
+      task8_Lambdas_Level1.main 
+      task1_Lambdas_Level2.main 
+      task2_Lambdas_Level2.main 
+      task3_Lambdas_Level2.main 
+      task4_Lambdas_Level2.main
+
+
+      
+
 
