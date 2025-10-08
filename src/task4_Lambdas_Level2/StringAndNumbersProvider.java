@@ -7,7 +7,8 @@ public class StringAndNumbersProvider {
     private List<Object> items;
 
     public StringAndNumbersProvider() {
-        this.items = List.of(1, 2, 3, 4, 5, "Water", "Annie", "Kevin", "Alfred", "Caiman");
+        this.items = List.of(2, 4, 5, 4, 5, 1, 8, 99, "Water", "Annie", "Kevin", "Alfred", "Caiman", "Estela", "Europa"
+                , "Enchanter");
     }
 
     public List<Object> getItems() {
