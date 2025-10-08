@@ -1,4 +1,4 @@
-package task6_Lambdas_Level1;
+package task6and7_Lambdas_Level1;
 
 import java.util.Comparator;
 import java.util.List;
@@ -12,6 +12,15 @@ public class ListSorterAndFilter {
                 .filter(obj -> obj instanceof String)
                 .map(obj -> (String) obj)
                 .sorted(Comparator.comparingInt(String::length))
+                .collect(Collectors.toList());
+    }
+
+    public List<String> orderHighestToLowestLetters(List<Object> list) {
+
+        return list.stream()
+                .filter(obj -> obj instanceof String)
+                .map(obj -> (String) obj)
+                .sorted(Comparator.comparingInt(String::length).reversed())
                 .collect(Collectors.toList());
     }
 }
